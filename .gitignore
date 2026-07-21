@@ -1,0 +1,49 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+venv/
+env/
+.venv/
+ENV/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ===== Bancos de dados / dados sensíveis =====
+*.sqlite
+*.sqlite3
+*.db
+*.env
+.env.local
+*.csv.bak
+
+# ===== Credenciais e segredos =====
+*.pem
+*.key
+credentials.json
+secrets.json
+.aws/
+config.ini
+
+# ===== VS Code =====
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ===== Sistema Operacional =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Logs e temporários =====
+*.log
+*.tmp
+*.bak
