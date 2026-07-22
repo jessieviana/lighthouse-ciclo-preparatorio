@@ -5,3 +5,4 @@
 #
 # Escreva seu código abaixo:
 
+debugger = True 
