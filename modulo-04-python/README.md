@@ -1,33 +1,53 @@
-# Módulo 04 — Python (Aulas 4 e 5)
+# Módulo 04 - Introdução ao Python
 
-Material organizado por tópico, seguindo a ordem do conteúdo dado em aula
-(Introdução ao Python — Lighthouse / Indicium).
+Este diretório documenta meu aprendizado nas duas aulas de Python do Ciclo
+Preparatório Lighthouse, da Indicium AI.
+
+Os códigos em `exemplos_da_aula/` foram apresentados pelo professor ou
+reproduzidos durante as explicações. Os arquivos em `exercicios/` registram as
+práticas que realizei para consolidar os conteúdos estudados.
+
+## Conteúdos estudados
+
+- tipos de dados, condicionais, operadores e loops;
+- funções, ordem dos argumentos, `*args`, `**kwargs` e pseudocódigo;
+- módulos, pacotes e ambientes virtuais;
+- leitura, inspeção e manipulação de dados com Pandas;
+- debugger;
+- classes, encapsulamento e polimorfismo;
+- princípios de código limpo e organização de projetos.
 
 ## Estrutura
 
 | Pasta | Conteúdo |
 |---|---|
-| `01_funcoes_e_pseudocodigo/` | Pseudocódigo, `*args` e `**kwargs`, ordem de argumentos |
-| `02_modulos_e_pacotes/` | Módulos próprios (`utils.py` + `moduled_file.py`), uso de pacotes nativos (`os`, `json`) e arquivos de exemplo (`.json`) |
-| `03_pandas/` | Exercício prático com Pandas (leitura de CSV/JSONL, merge, filtro, exportação) — os dados usados ficam em `data/` |
+| `exemplos_da_aula/` | Exemplos apresentados ou acompanhados durante as aulas |
+| `exercicios/` | Exercícios e práticas realizados por mim |
+
+### Exemplos acompanhados em aula
+
+| Pasta | Conteúdo |
+|---|---|
+| `01_funcoes_e_pseudocodigo/` | Funções, argumentos e verificador de idade |
+| `02_modulos_e_pacotes/` | Módulos próprios, biblioteca padrão e arquivos JSON |
+| `03_pandas/` | Leitura de CSV/JSONL, merge, filtro e exportação |
 | `04_classes_e_oop/` | Classes, encapsulamento e polimorfismo |
-| `05_loops/` | Exemplo de loop processando uma lista em batches |
+| `05_loops/` | Processamento de uma lista em batches |
 
-## Como rodar
+## Como executar os exercícios
 
-1. Ative o ambiente virtual (venv) na raiz do seu projeto.
-2. Instale as dependências necessárias, por exemplo:
-   ```
-   pip install pandas
-   ```
-3. Para os scripts da pasta `03_pandas/`, rode a partir de **dentro** dessa
-   pasta (os caminhos dos arquivos são relativos a `data/`):
-   ```
-   cd 03_pandas
-   python pandas_practice.py
-   ```
+No Windows, a partir da raiz do repositório:
 
-## Observação
+```powershell
+py -m pip install -r modulo-04-python/requirements.txt
+py modulo-04-python/exercicios/s32_ler_inspecionar.py
+```
 
-O arquivo `moduled_file.py` importa funções de `utils.py` — os dois precisam
-permanecer na mesma pasta para o `import` funcionar.
+## Referências
+
+- [Aula 04 - Introdução ao Python I](https://www.youtube.com/watch?v=_Cppgov9tq0)
+- Material *Introdução ao Python - Lighthouse*, apresentado por Duarte Junior,
+  da Indicium AI
+
+> Este repositório é um registro de aprendizagem. Os exemplos didáticos são
+> mantidos com sua atribuição, sem reivindicação de autoria original.
