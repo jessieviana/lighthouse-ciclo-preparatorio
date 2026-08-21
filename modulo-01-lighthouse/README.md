@@ -28,9 +28,9 @@ Apresentação institucional do programa, sem exercícios práticos. Resumo dos 
 ### Cronograma de aulas
 | Semana | Conteúdo |
 |---|---|
-| 1ª semana | Introdução à Programação, Introdução à SQL, Introdução ao Python I e II, Introdução ao Lighthouse |
-| 2ª semana | GenAI, Fundamentos de Cloud, Fundamentos de Bancos de Dados, Fundamentos de Controle de Versão |
-| 3ª semana | Visão Geral de Projetos, Soft Skills e Preparação para Entrevistas, Fundamentos de Engenharia de Dados |
+| 1ª semana | Introdução ao Lighthouse; Introdução à Programação I e II; Introdução a SQL; Introdução ao Python I |
+| 2ª semana | Introdução ao Python II; Fundamentos do Controle de Versão I e II; Introdução e utilização de GenAI; Fundamentos de Cloud |
+| 3ª semana | Fundamentos de Bancos de Dados; Fundamentos de Engenharia de Dados; Carreiras de Negócios; Masterclass: a importância das Soft Skills e dicas de preparação para entrevista |
 
 ## Processo Seletivo (visão geral)
 
