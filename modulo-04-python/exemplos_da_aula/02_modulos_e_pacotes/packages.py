@@ -1,11 +1,6 @@
 import os
 import json
 
-# Acabei não desenvolvendo isso em aula, pois não daria tempo
-# Mas como exemplo de importação de libs nativas do python, temos
-# os, que manipula diretórios na máquina
-# json, que permite lidarmos com arquivos em formato json
-
 # A lógica aqui seria, a partir do pesudocódigo de permissão para a festa
 # Criarmos um código com os módulos que criasse um txt com uma frase de convite
 
