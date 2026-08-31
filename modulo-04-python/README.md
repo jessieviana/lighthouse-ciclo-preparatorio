@@ -45,7 +45,6 @@ py modulo-04-python/exercicios/s32_ler_inspecionar.py
 
 ## Referências
 
-- [Aula 04 - Introdução ao Python I](https://www.youtube.com/watch?v=_Cppgov9tq0)
 - Material *Introdução ao Python - Lighthouse*, apresentado por Duarte Junior,
   da Indicium AI
 
